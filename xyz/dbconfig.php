@@ -1,10 +1,10 @@
 <?php 
 $servername="localhost";
-$username="nehaverm_paytm";
-$password="71.5u^??OR1-";
-$database="nehaverm_paytm";
+$username="username";
+$password="your password";
+$database="database name";
 //$message="";
-$conn=new mysqli('localhost','nehaverm_paytm','71.5u^??OR1-','nehaverm_paytm');
+$conn=new mysqli('localhost','username','password','databasename');
 
 if($conn->connect_error)
 {
