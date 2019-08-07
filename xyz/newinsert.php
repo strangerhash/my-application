@@ -14,7 +14,7 @@ if(isset($_POST['submit']))
 	$message= htmlentities(trim($_POST['message']),ENT_NOQUOTES); 
 //	$unique_id=$_POST['ORDER_ID'];
 	
-        $sql = "INSERT INTO nehaverm_paytm.register (male,name,email,city) VALUES ('$mail','$name','$MSISDN','$city')";
+        $sql = "INSERT INTO database.table (male,name,email,city) VALUES ('$mail','$name','$MSISDN','$city')";
        // $sql="INSERT INTO allinonecyberteam.`enquiry` (`enquiry_id`, `enquiry_name`, `enquiry_mail`, `enquiry_contact`, `enquiry_message`) VALUES (NULL, 'sattu', 'pandeysatyendra870@gmail.com', '7376998083', 'hello')";
         if ($conn->query($sql) == TRUE) 
           {    
@@ -22,7 +22,7 @@ if(isset($_POST['submit']))
                	
 	ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
-    $from = "cto@allinonecyberteam.com";
+    $from = "pandeysatyendra870@gmail.com";
     $to = $EMAIL;
     $subject = "Welcome To MsMrInternational Event";
     $message1='<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
