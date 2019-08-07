@@ -115,7 +115,7 @@ else
 //echo $name;
 
 ?>
-<a href="https://msmrsinternationalindia.com"><input type="button" class="btn btn-success" value="HOMEPAGE"></a>
+<a href="./home"><input type="button" class="btn btn-success" value="HOMEPAGE"></a>
 </body>
 </html>
 
