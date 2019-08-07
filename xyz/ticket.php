@@ -167,7 +167,7 @@
                            <!-- Home li end -->
                            
                            <li class="header-ticket">
-                              <a class="ticket-btn btn-primary" href="https://msmrsinternationalindia.com/registration.php" target="_blank"><i class="fa fa-ticket"></i>Register</a>
+                              <a class="ticket-btn btn-primary" href="./registration.php" target="_blank"><i class="fa fa-ticket"></i>Register</a>
                            </li>
                         </ul>
                         <!--/ Nav ul end -->
@@ -318,11 +318,11 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="https://www.msmrsinternationalindia.com/images/ticket.jpeg" alt="TICKET" style="width:100%;height:400px;">
+        <img src="./images/ticket.jpeg" alt="TICKET" style="width:100%;height:400px;">
       </div>
 
       <div class="item">
-        <img src="https://www.allinonecyberteam.com/images/newback.jpeg" alt="Chicago" style="width:100%;height:400px;">
+        <img src="./images/newback.jpeg" alt="Chicago" style="width:100%;height:400px;">
       </div>
     
       
