@@ -19,7 +19,7 @@ if($conn->connect_error)
  {
      $message="<div><input type='button' class='btn btn-primary' value='USER HAS NOT REGISTERED YET'></div>";
  }
- $sql="SELECT * FROM nehaverm_paytm.payment WHERE order_id='$name'";
+ $sql="SELECT * FROM database.table WHERE order_id='$name'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
