@@ -16,7 +16,7 @@ if(isset($_POST['submit']))
 //	$message= htmlentities(trim($_POST['message']),ENT_NOQUOTES); 
     $unique_id=$_POST['ORDER_ID'];
 	
-    $sql = "INSERT INTO nehaverm_paytm.payment (order_id,name,email,city,contact,ticket_count) VALUES ('$unique_id','$name','$EMAIL','$city','$MSISDN','$newnum')";
+    $sql = "INSERT INTO database.table (order_id,name,email,city,contact,ticket_count) VALUES ('$unique_id','$name','$EMAIL','$city','$MSISDN','$newnum')";
        // $sql="INSERT INTO allinonecyberteam.`enquiry` (`enquiry_id`, `enquiry_name`, `enquiry_mail`, `enquiry_contact`, `enquiry_message`) VALUES (NULL, 'sattu', 'pandeysatyendra870@gmail.com', '7376998083', 'hello')";
         if ($conn->query($sql) == TRUE) 
           {    
